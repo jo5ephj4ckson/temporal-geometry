@@ -1,0 +1,265 @@
+=== Database / Dataset to Script Mapping ===
+
+📁 Database/File: 16bit_tunneling_dataset.csv
+   Referenced in 4 script(s):
+     - Analysis\16bit_curve.py
+     - Analysis\16bit_shuffle.py
+     - Analysis\16bit_synthetic.py
+     - Analysis\16bit_tunneling.py
+
+📁 Database/File: alphabetencoding.csv
+   Referenced in 3 script(s):
+     - Analysis\drift_alignment.py
+     - Analysis\drift_timeline.py
+     - Analysis\flatcluster_comparison.py
+
+📁 Database/File: android_hexagrams.csv
+   Referenced in 2 script(s):
+     - Analysis\android_analyzer.py
+     - Analysis\cross_compare.py
+
+📁 Database/File: byte_manifold_dataset.csv
+   Referenced in 8 script(s):
+     - Analysis\byte_manifold_analyze.py
+     - Analysis\byte_manifold_clusters.py
+     - Analysis\byte_manifold_compare.py
+     - Analysis\curvature_extraction.py
+     - Analysis\manifold_compare_all.py
+     - Analysis\oscillation.py
+     - Analysis\temporal_offset.py
+     - Probes\byte_manifold.py
+
+📁 Database/File: clustered_output.csv
+   Referenced in 7 script(s):
+     - Analysis\centroid_heatmap.py
+     - Analysis\epoch_comparison.py
+     - Analysis\epoch_stats.py
+     - Analysis\kmeans_k8.py
+     - Analysis\kmeans_probe.py
+     - Analysis\permutation_test.py
+     - Analysis\temporal_drift.py
+
+📁 Database/File: entropy_export.csv
+   Referenced in 1 script(s):
+     - Analysis\analyze_entropy.py
+
+📁 Database/File: flat64_dataset.csv
+   Referenced in 3 script(s):
+     - Analysis\invariance_test.py
+     - Analysis\temporal_curvature.py
+     - Probes\alphabet_probe.py
+
+📁 Database/File: hdbscan_output.csv
+   Referenced in 2 script(s):
+     - Analysis\build_matrix.py
+     - Analysis\run_hdbscan.py
+
+📁 Database/File: hexagram_dataset_with_rng.csv
+   Referenced in 10 script(s):
+     - Analysis\attractor_basin.py
+     - Analysis\cluster_comparison.py
+     - Analysis\diagnostic1.py
+     - Analysis\diagnostic2.py
+     - Analysis\invariance_test.py
+     - Analysis\recurrence_analysis.py
+     - Analysis\shuffle_control.py
+     - Analysis\temporal_curvature.py
+     - Analysis\temporal_stability.py
+     - Probes\hexagrams_rngtrace.py
+
+📁 Database/File: hexagramdataset1.csv
+   Referenced in 35 script(s):
+     - Analysis\analyze_clusters.py
+     - Analysis\baseline_analyzer.py
+     - Analysis\basin_fingerprinting.py
+     - Analysis\basin_stability.py
+     - Analysis\byte_manifold_clusters.py
+     - Analysis\byte_manifold_compare.py
+     - Analysis\cluster_permutation.py
+     - Analysis\cluster_similarity.py
+     - Analysis\cross_compare.py
+     - Analysis\curvature_extraction.py
+     - Analysis\cycle_detection.py
+     - Analysis\decay_curve.py
+     - Analysis\diagnostic1.py
+     - Analysis\drift_alignment.py
+     - Analysis\drift_timeline.py
+     - Analysis\early_comparison.py
+     - Analysis\flatcluster_comparison.py
+     - Analysis\invariance_test.py
+     - Analysis\invertedcluster_comparison.py
+     - Analysis\lag_correlation.py
+     - Analysis\line_randomization.py
+     - Analysis\manifold_compare_all.py
+     - Analysis\oscillation.py
+     - Analysis\phase_space.py
+     - Analysis\resolution_change.py
+     - Analysis\run_diagnostic.py
+     - Analysis\stationary_distribution.py
+     - Analysis\synthetic_random.py
+     - Analysis\temporal_curvature.py
+     - Analysis\temporal_offset.py
+     - Analysis\temporal_shuffle.py
+     - Analysis\transition_entropy.py
+     - Analysis\tunneling_clusters.py
+     - Analysis\tunneling_compare.py
+     - Probes\hexagrams.py
+
+📁 Database/File: hexagramdataset2.csv
+   Referenced in 5 script(s):
+     - Analysis\basin_fingerprinting.py
+     - Analysis\cluster_comparison.py
+     - Analysis\cluster_similarity.py
+     - Analysis\drift_alignment.py
+     - Analysis\run_diagnostic.py
+
+📁 Database/File: inverted_hexagram_dataset.csv
+   Referenced in 3 script(s):
+     - Analysis\invariance_test.py
+     - Analysis\temporal_curvature.py
+     - Probes\invertedprobe.py
+
+📁 Database/File: inverteddataset.csv
+   Referenced in 1 script(s):
+     - Analysis\invertedcluster_comparison.py
+
+📁 Database/File: randomdataset.csv
+   Referenced in 4 script(s):
+     - Analysis\basin_fingerprinting.py
+     - Analysis\drift_alignment.py
+     - Analysis\early_comparison.py
+     - Analysis\stationary_distribution.py
+
+📁 Database/File: raw_temporal_dataset.csv
+   Referenced in 4 script(s):
+     - Analysis\raw_analyzer.py
+     - Probes\raw_dell_dynamics.py
+     - Probes\raw_temporal_dynamics.py
+     - Probes\raw_temporal_dynamics_x.py
+
+📁 Database/File: raw_temporal_dataset_x64.csv
+   Referenced in 10 script(s):
+     - Analysis\manifold_metrics.py
+     - Analysis\manifold_model.py
+     - Analysis\manifold_simulation.py
+     - Analysis\manifold_visualizer.py
+     - Analysis\markovx64.py
+     - Analysis\raw_temporal_analysis.py
+     - Analysis\temporal_radar.py
+     - Analysis\temporal_turbulance.py
+     - Analysis\temporal_weather.py
+     - Probes\raw_temporal_dynamics_x64.py
+
+📁 Database/File: stationary_distribution.csv
+   Referenced in 1 script(s):
+     - Analysis\markov_chain.py
+
+📁 Database/File: structured_output.csv
+   Referenced in 9 script(s):
+     - Analysis\cluster_structure.py
+     - Analysis\color_umap.py
+     - Analysis\columnscheck.py
+     - Analysis\kmeans_k8.py
+     - Analysis\kmeans_probe.py
+     - Analysis\plot_umaptime.py
+     - Analysis\run_hdbscan.py
+     - Analysis\run_umap.py
+     - Probes\probe_sampler.py
+
+📁 Database/File: structured_output_clustered.csv
+   Referenced in 5 script(s):
+     - Analysis\alt_clustering_analysis.py
+     - Analysis\cluster_structure.py
+     - Analysis\epoch_markov_analysis.py
+     - Analysis\markov_chain.py
+     - Analysis\null_model_collapse.py
+
+📁 Database/File: structured_output_quantum.csv
+   Referenced in 1 script(s):
+     - Probes\quantum_probe.py
+
+📁 Database/File: structured_output_randomorg.csv
+   Referenced in 4 script(s):
+     - Analysis\invariance_test.py
+     - Analysis\random_analysis.py
+     - Analysis\temporal_curvature.py
+     - Probes\random_probe.py
+
+📁 Database/File: temporal_analysis_dataset.csv
+   Referenced in 1 script(s):
+     - Analysis\raw_analyzer.py
+
+📁 Database/File: temporal_curvature_results.json
+   Referenced in 1 script(s):
+     - Analysis\curvature_extraction.py
+
+📁 Database/File: temporal_fronts_moderate.csv
+   Referenced in 1 script(s):
+     - Analysis\temporal_weather.py
+
+📁 Database/File: temporal_fronts_strong.csv
+   Referenced in 1 script(s):
+     - Analysis\temporal_weather.py
+
+📁 Database/File: temporal_fronts_weak.csv
+   Referenced in 1 script(s):
+     - Analysis\temporal_weather.py
+
+📁 Database/File: temporal_offset_results.json
+   Referenced in 1 script(s):
+     - Analysis\temporal_offset.py
+
+📁 Database/File: temporal_phase_space_points.csv
+   Referenced in 5 script(s):
+     - Analysis\attractor_visualization.py
+     - Analysis\fractal_dimension.py
+     - Analysis\lyapunov_exponent.py
+     - Analysis\phase_space.py
+     - Analysis\space_density.py
+
+📁 Database/File: temporal_probe_dataset.csv
+   Referenced in 1 script(s):
+     - Analysis\block_permutation.py
+
+📁 Database/File: temporal_turbulence_windows.csv
+   Referenced in 1 script(s):
+     - Analysis\temporal_turbulance.py
+
+📁 Database/File: temporal_weather_map.csv
+   Referenced in 1 script(s):
+     - Analysis\temporal_weather.py
+
+📁 Database/File: transition_counts.csv
+   Referenced in 1 script(s):
+     - Analysis\markov_chain.py
+
+📁 Database/File: transition_probs.csv
+   Referenced in 1 script(s):
+     - Analysis\markov_chain.py
+
+📁 Database/File: tunneling_byte_manifold_dataset.csv
+   Referenced in 7 script(s):
+     - Analysis\byte_manifold_analyze.py
+     - Analysis\byte_manifold_clusters.py
+     - Analysis\byte_manifold_compare.py
+     - Analysis\curvature_extraction.py
+     - Analysis\manifold_compare_all.py
+     - Analysis\temporal_offset.py
+     - Probes\tunneling_byte_manifold.py
+
+📁 Database/File: tunneling_hexagram_dataset.csv
+   Referenced in 10 script(s):
+     - Analysis\byte_manifold_clusters.py
+     - Analysis\byte_manifold_compare.py
+     - Analysis\cross_compare.py
+     - Analysis\curvature_extraction.py
+     - Analysis\manifold_compare_all.py
+     - Analysis\temporal_offset.py
+     - Analysis\tunneling_analyzer.py
+     - Analysis\tunneling_clusters.py
+     - Analysis\tunneling_compare.py
+     - Probes\tunneling_rng_sampler.py
+
+📁 Database/File: umap_output.csv
+   Referenced in 1 script(s):
+     - Analysis\run_umap.py

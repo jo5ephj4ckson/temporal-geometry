@@ -1,0 +1,64 @@
+PROBE SCRIPT TO DATASET & ANALYSIS PIPELINE MAPPING
+==================================================
+
+1. Alphabet Probe
+   - Probe Script: Probes\alphabet_probe.py
+   - Output Dataset: flat64_dataset.csv
+   - Analysis Scripts: Analysis\invariance_test.py, Analysis\temporal_curvature.py
+
+2. Byte Manifold Probe
+   - Probe Script: Probes\byte_manifold.py
+   - Output Dataset: byte_manifold_dataset.csv
+   - Analysis Scripts: Analysis\byte_manifold_analyze.py, Analysis\byte_manifold_clusters.py, Analysis\byte_manifold_compare.py, Analysis\curvature_extraction.py, Analysis\manifold_compare_all.py, Analysis\oscillation.py, Analysis\temporal_offset.py
+
+3. Hexagrams Probe
+   - Probe Script: Probes\hexagrams.py
+   - Output Dataset: hexagramdataset1.csv
+   - Analysis Scripts: Referenced across 35 scripts (including Analysis\baseline_analyzer.py, Analysis\cycle_detection.py, Analysis\phase_space.py, Analysis\transition_entropy.py)
+
+4. Hexagrams RNG Trace Probe
+   - Probe Script: Probes\hexagrams_rngtrace.py
+   - Output Dataset: hexagram_dataset_with_rng.csv
+   - Analysis Scripts: Analysis\attractor_basin.py, Analysis\cluster_comparison.py, Analysis\recurrence_analysis.py, Analysis\shuffle_control.py, Analysis\temporal_stability.py
+
+5. Inverted Hexagram Probe
+   - Probe Script: Probes\invertedprobe.py
+   - Output Dataset: inverted_hexagram_dataset.csv
+   - Analysis Scripts: Analysis\invariance_test.py, Analysis\temporal_curvature.py
+
+6. Probe Sampler
+   - Probe Script: Probes\probe_sampler.py
+   - Output Dataset: structured_output.csv
+   - Analysis Scripts: Analysis\cluster_structure.py, Analysis\color_umap.py, Analysis\kmeans_k8.py, Analysis\run_hdbscan.py, Analysis\run_umap.py
+
+7. Quantum Probe
+   - Probe Script: Probes\quantum_probe.py
+   - Output Dataset: structured_output_quantum.csv
+   - Analysis Scripts: (Direct stream / capture handled via script interface)
+
+8. Random Org Probe
+   - Probe Script: Probes\random_probe.py
+   - Output Dataset: structured_output_randomorg.csv
+   - Analysis Scripts: Analysis\invariance_test.py, Analysis\random_analysis.py, Analysis\temporal_curvature.py
+
+9. Raw Temporal Dynamics Probes
+   - Probe Scripts: Probes\raw_dell_dynamics.py, Probes\raw_temporal_dynamics.py, Probes\raw_temporal_dynamics_x.py
+   - Output Dataset: raw_temporal_dataset.csv
+   - Analysis Scripts: Analysis\raw_analyzer.py
+
+10. Raw Temporal Dynamics x64 Probe
+    - Probe Script: Probes\raw_temporal_dynamics_x64.py
+    - Output Dataset: raw_temporal_dataset_x64.csv
+    - Analysis Scripts: Analysis\markovx64.py, Analysis\raw_temporal_analysis.py, Analysis\temporal_radar.py, Analysis\temporal_turbulance.py, Analysis\temporal_weather.py
+
+11. Tunneling Byte Manifold Probe
+    - Probe Script: Probes\tunneling_byte_manifold.py
+    - Output Dataset: tunneling_byte_manifold_dataset.csv
+    - Analysis Scripts: Analysis\byte_manifold_analyze.py, Analysis\byte_manifold_clusters.py, Analysis\curvature_extraction.py, Analysis\manifold_compare_all.py
+
+12. Tunneling RNG Sampler Probe
+    - Probe Script: Probes\tunneling_rng_sampler.py
+    - Output Dataset: tunneling_hexagram_dataset.csv
+    - Analysis Scripts: Analysis\tunneling_analyzer.py, Analysis\tunneling_clusters.py, Analysis\tunneling_compare.py, Analysis\cross_compare.py
+
+*(Note: Android `.zip` assets in the probes folder have been excluded from this mapping as they are non-Python archive assets).*
