@@ -1,1 +1,3 @@
 The full datasets are available at Zenodo: DOI: 10.5281/zenodo.23089796
+
+The datasets directory serves as the documentation hub for all entropy datasets used in the temporal‑geometry study. Because the full dataset corpus exceeds GitHub’s storage limits, all raw entropy streams and manifold‑encoded sequences are hosted on Zenodo and referenced through the DOI provided in the main repository README. This folder contains metadata, descriptions, and reproducibility notes for each dataset, while the complete dataset archive is permanently stored and versioned on Zenodo. Every dataset in the study can be traced back to its originating probe and corresponding analysis scripts through the mapping file in the docs directory.
