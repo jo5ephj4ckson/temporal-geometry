@@ -1,0 +1,74 @@
+Reference List
+
+Foundational Entropy & Randomness Theory
+
+Shannon’s entropy paper  
+Shannon, C.E. A Mathematical Theory of Communication. Bell System Technical Journal 1948, 27, 379–423.
+https://doi.org/10.1002/j.1538-7305.1948.tb01338.x (doi.org in Bing)
+
+Kolmogorov complexity  
+Kolmogorov, A.N. Three Approaches to the Quantitative Definition of Information. Problems of Information Transmission 1965, 1, 1–7.
+
+Randomness & algorithmic information  
+Li, M.; Vitányi, P. An Introduction to Kolmogorov Complexity and Its Applications; Springer: New York, NY, USA, 2008.
+
+
+Entropy Measurement, Noise Sources, and Physical Randomness
+
+Atmospheric entropy  
+Haahr, M. Random.org: True Random Number Service. Available online: https://www.random.org (accessed 2026).
+
+Quantum tunneling noise  
+Jensen, H.; Pedersen, N.F. Noise in Tunnel Junctions. Physical Review B 1984, 30, 3260–3266.
+https://doi.org/10.1103/PhysRevB.30.3260 (doi.org in Bing)
+
+Hardware entropy & RNG devices  
+L’Ecuyer, P.; Simard, R. TestU01: A C Library for Empirical Testing of Random Number Generators. ACM Transactions on Mathematical Software 2007, 33, 22.
+https://doi.org/10.1145/1268776.1268777 (doi.org in Bing)
+
+
+Temporal Dynamics, Drift, and Stochastic Processes
+
+Markov drift  
+Norris, J.R. Markov Chains; Cambridge University Press: Cambridge, UK, 1997.
+
+Stochastic processes  
+Gardiner, C.W. Handbook of Stochastic Methods; Springer: Berlin, Germany, 2004.
+
+Time‑series oscillation  
+Chatfield, C. The Analysis of Time Series: An Introduction; CRC Press: Boca Raton, FL, USA, 2016.
+
+
+Manifold Geometry, Curvature, and Flow
+
+Manifold geometry  
+Lee, J.M. Introduction to Smooth Manifolds; Springer: New York, NY, USA, 2012.
+
+Curvature & geometric structure  
+Do Carmo, M.P. Differential Geometry of Curves and Surfaces; Prentice‑Hall: Englewood Cliffs, NJ, USA, 1976.
+
+Dynamical systems & attractors  
+Strogatz, S.H. Nonlinear Dynamics and Chaos; Westview Press: Boulder, CO, USA, 2015.
+
+
+Software, Tools, and Reproducibility
+
+Python  
+Python Software Foundation. Python Language Reference, Version 3.x. Available online: https://www.python.org (accessed 2026).
+
+NumPy  
+Harris, C.R.; et al. Array Programming with NumPy. Nature 2020, 585, 357–362.
+https://doi.org/10.1038/s41586-020-2649-2 (doi.org in Bing)
+
+SciPy  
+Virtanen, P.; et al. SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods 2020, 17, 261–272.
+https://doi.org/10.1038/s41592-019-0686-2 (doi.org in Bing)
+
+Matplotlib  
+Hunter, J.D. Matplotlib: A 2D Graphics Environment. Computing in Science & Engineering 2007, 9, 90–95.
+
+Zenodo dataset archive  
+Zenodo. Open Science Repository. Available online: https://zenodo.org (accessed 2026).
+
+GitHub repository  
+GitHub, Inc. GitHub Code Hosting Platform. Available online: https://github.com (accessed 2026).
