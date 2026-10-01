@@ -1,0 +1,1 @@
+Informed consent was not required for this study because no human participants, personal data, or identifiable information were involved. All work consisted solely of computational analysis, entropy measurement, and temporal‑geometry modeling, and therefore no consent procedures apply.
