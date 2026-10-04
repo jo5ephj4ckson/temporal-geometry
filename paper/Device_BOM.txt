@@ -1,0 +1,16 @@
+1. Bill of Materials (BOM)
+LM358P op‑amp — dual, single‑supply, DIP‑8 package
+
+LED probe — standard 5 mm LED, any color; forward voltage 1.8–3.2 V depending on color
+
+Bias resistor — 330 Ω, ¼ W, ±5%
+
+Decoupling capacitor — 0.1 µF ceramic, placed across VCC/GND
+
+USB 5 V supply — standard USB‑A port
+
+3.5 mm TRS jack — panel‑mount, tip/ring/sleeve
+
+Sabrent USB audio adapter — model AU‑MMSA or equivalent
+
+General wiring — 22–26 AWG solid or stranded hookup wire
