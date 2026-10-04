@@ -1,0 +1,63 @@
+1. Bill of Materials (BOM)
+LM358P op‑amp — dual, single‑supply, DIP‑8 package
+
+LED probe — standard 5 mm LED, any color; forward voltage 1.8–3.2 V depending on color
+
+Bias resistor — 330 Ω, ¼ W, ±5%
+
+Decoupling capacitor — 0.1 µF ceramic, placed across VCC/GND
+
+USB 5 V supply — standard USB‑A port
+
+3.5 mm TRS jack — panel‑mount, tip/ring/sleeve
+
+Sabrent USB audio adapter — model AU‑MMSA or equivalent
+
+General wiring — 22–26 AWG solid or stranded hookup wire
+
+2. Op‑Amp Pin‑Level Wiring (LM358P)
+Pin 8 (VCC): connect to USB +5 V
+
+Pin 4 (GND): connect to USB ground
+
+Pin 3 (Non‑inverting input): LED probe output node
+
+Pin 2 (Inverting input): feedback from Pin 1
+
+Pin 1 (Output): amplified signal → TRS jack tip
+
+Optional: second op‑amp channel unused (Pins 5–7)
+
+3. LED Probe Biasing
+LED anode → 330 Ω resistor → USB +5 V
+
+LED cathode → ground
+
+Probe output node is taken directly from the LED anode (the junction between LED and resistor).
+
+No additional filtering or buffering is required.
+
+4. Output Interface
+TRS jack tip: LM358P output (Pin 1)
+
+TRS jack sleeve: ground
+
+TRS ring: unused
+
+Connect TRS jack to Sabrent AU‑MMSA line‑in.
+
+5. Physical Layout Notes
+Keep LED probe leads short (<5 cm) to reduce parasitic capacitance.
+
+Place the 0.1 µF decoupling capacitor as close as possible to Pins 4 and 8.
+
+No shielding or enclosure is required for basic operation.
+
+6. Operating Conditions
+Supply voltage: 5 V USB
+
+Typical LED current: 8–12 mA
+
+Op‑amp output amplitude: 0.1–1.2 V depending on probe behavior
+
+Sampling: 44.1 kHz or 48 kHz via Sabrent AU‑MMSA
